@@ -12,10 +12,10 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import numpy as np
 
-luasdanproduksi = pd.read_excel("/content/Luas dan produksi.xlsx")
+luasdanproduksi = pd.read_excel("Luas dan produksi.xlsx")
 luasdanproduksi
 
-ekspor = pd.read_excel("/content/Nilai ekspor.xlsx")
+ekspor = pd.read_excel("Nilai ekspor.xlsx")
 ekspor
 
 gabungan = pd.concat([luasdanproduksi, ekspor], ignore_index=True)
